@@ -12,3 +12,4 @@ https://www.youtube.com/watch?v=8b6iqmo_2Os
 メモ）
 ・テックメンターでて作業指示。
 ・Git&GitHubで管理
+・練習中
