@@ -19,6 +19,8 @@ const TodoApp = () => {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
+    if (title === "") return;
+
     // Todoの追加
     await addTodo(title);
     setTitle("");
@@ -35,6 +37,7 @@ const TodoApp = () => {
           type="text"
           className="mr-2 shadow-lg p-1 outline-none"
           onChange={(e) => setTitle(e.target.value)}
+          value={title}
         />
         <button className="shadow-md border-2 px-1 py-1 rounded-lg bg-green-200">
           Add
