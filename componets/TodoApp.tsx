@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import TodoList from "./TodoList";
+import { getAllTodos } from "@/utils/supabeseFunction";
 
 const TodoApp = () => {
+  const [todos, setTodos] = useState<any>([]);
+
+  useEffect(() => {
+    const getTodos = async () => {
+      const todos = await getAllTodos();
+      setTodos(todos);
+      console.log(todos);
+    };
+
+    getTodos()
+  }, []);
+
   return (
     <section className="text-center mb-2 text-2xl font-medium">
       <h3>Supabese Todo App</h3>
