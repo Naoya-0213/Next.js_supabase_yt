@@ -10,7 +10,6 @@ const TodoApp = () => {
     const getTodos = async () => {
       const todos = await getAllTodos();
       setTodos(todos);
-      console.log(todos);
     };
 
     getTodos();
@@ -43,7 +42,7 @@ const TodoApp = () => {
           Add
         </button>
       </form>
-      <TodoList todos={todos} setTodos={setTodos}/>
+      <TodoList todos={todos} setTodos={setTodos} />
     </section>
   );
 };
