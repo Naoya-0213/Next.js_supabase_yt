@@ -10,6 +10,6 @@ https://www.youtube.com/watch?v=8b6iqmo_2Os
 25 年 5 月 7 日〜
 
 メモ）
-・テックメンターでて作業指示。
+・テックメンターにて作業指示。
 ・Git&GitHubで管理
 
