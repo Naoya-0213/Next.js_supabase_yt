@@ -10,3 +10,8 @@ export const getAllTodos = async () => {
 export const addTodo = async (title: string) => {
   await supabase.from("Todo_Next.js_Supabase").insert({ title: title });
 };
+
+// 削除
+export const deleteTodo = async (id: number) => {
+  await supabase.from("Todo_Next.js_Supabase").delete().eq("id", id);
+};
