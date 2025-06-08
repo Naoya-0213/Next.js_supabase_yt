@@ -4,7 +4,7 @@ youtube での学習用
 ・Supabese
 
 URl）
-https://www.youtube.com/watch?v=8b6iqmo_2Os
+[https://www.youtube.com/watch?v=8b6iqmo_2Os](https://www.youtube.com/watch?v=CZlZgRo0bZ4)
 
 作業時期）
 25 年 5 月 7 日〜
